@@ -2,3 +2,9 @@ DSL
   problem domain
   solution domain
 monkey-patching
+Immutability
+Homoiconicity
+compiler
+interpreter
+higher-order function
+repl
