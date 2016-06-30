@@ -23,6 +23,7 @@ v | edit and execute the current command in a text editor
 # basic motion commands
 
 shortcut | description
+-------- | -----------
 l | move one character right
 SPACE | move one character right
 h | move one character left
@@ -40,8 +41,11 @@ $ | move to the end of line
 # character finding commands
 
 shortcut | description
+-------- | -----------
 fc | move right to the first occurance of c
 Fc | move left to the previous occurance of c
 tc | move right to the next occurance of c, then one char backward
 Tc | move left to the previous occurance of c, then one char forward
 ; | redo the last character finding command
+, | redo the last character finding command in opposite direction
+<n>| | move to the n-th column
