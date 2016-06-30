@@ -37,7 +37,7 @@ E | move to the end of the current non-blank word
 0 | move to the beginning of line
 ˆ | move to the first non-blank character of line
 $ | move to the end of line
-% | move to the corresponding opening/closing bracket (( ), [ ], { })
+% | move to the corresponding opening/closing bracket ( ( ), [ ], { } )
 
 ### character finding commands
 
@@ -85,3 +85,9 @@ j | move forward one command in history
 ?\{string\} | search history forward for a command matching \{string\}
 n | repeat search in the same direction as previous
 N | repeat search in the opposite direction as previous 
+
+### completion commands
+
+shortcut | description
+-------- | -----------
+\<Tab> | list possible completions
