@@ -11,7 +11,7 @@ i | insert before cursor
 a | insert after cursor
 I | insert at the beginning of line
 A | insert at the end of line
-c`<motion>` | change text inside motion
+c\<motion> | change text inside motion
 C | change text to the end of line (equivalent to c$)
 cc | change current line (equivalent to 0c$)
 S | change current line (equivalent to 0c$)
