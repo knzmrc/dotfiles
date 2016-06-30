@@ -91,3 +91,16 @@ N | repeat search in the opposite direction as previous
 shortcut | description
 -------- | -----------
 \<Tab> | list possible completions
+\<C-i> | list possible completions
+= | list possible completions
+\* | insert all possible completions
+
+### miscellaneous commands
+
+shortcut | description
+-------- | -----------
+~ | invert the case ot the character under cursor and move a character right
+\# | prepend \# (comment character) to the line and send it to the history list
+\{int\}_ | inserts the {int}-th word of the previous command in the current line
+\<C-v> | insert a character literally (quoted insert)
+\<C-t> | transpose (exchange) two characters
